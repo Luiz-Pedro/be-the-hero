@@ -1,0 +1,18 @@
+- npm install express
+- Baixar Insomnia para checar as rotas
+- npm install nodemon -D   => para atualizar o server ao dar ctrl+s (escrever um script em package.json: "start": "nodemon index.js")
+- npm install knex (query builder para js)
+- npm install sqlite3 (banco de dados)
+
+- npx knex init (iniciar a conexao com o banco) (cria o knexfile.js)
+- npx knex migrate:make create_ongs (cria o arq na pasta migrations para criar a tabela do banco la dentro)
+- npx knex migrate:latest (rodar isso cada vez para criar a tabela no banco) (cria o banco ao rodar pela primeira vez)
+
+- npm install cors (seguranca)
+
+- publicar no git hub:
+	- criar arquivo .gitignore no src e escrever node_modules
+	- clicar para commitar
+	- ctrl + shift + p (pesquisar "remote")
+	- git add remote (origin e url do repo)
+	- push
