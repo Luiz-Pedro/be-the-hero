@@ -12,7 +12,7 @@
 
 - publicar no git hub:
 	- criar arquivo .gitignore no src e escrever node_modules
-	- clicar para commitar
-	- ctrl + shift + p (pesquisar "remote")
-	- git add remote (origin e url do repo)
-	- push
+	- git init
+	- git commit -m "first commit"
+	- git remote add origin https://github.com/Luiz-Pedro/be-the-hero.git
+	- git push -u origin master
