@@ -16,3 +16,10 @@
 	- git commit -m "first commit"
 	- git remote add origin https://github.com/Luiz-Pedro/be-the-hero.git
 	- git push -u origin master
+	(se der erro na pasta frontend)
+		1 - Navegar até sua pasta Frontend
+		2 - Remover a pasta .git (Caso esteja no windows, verificar se está mostrando todas as pastas ocultas)
+		3 - Renomear a pasta Frontend
+		4 - No terminal, na pasta raiz do projeto executar git add .
+		5 - git commit -m "Alteração de pasta"
+		6 - git push
