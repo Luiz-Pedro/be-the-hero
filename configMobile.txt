@@ -22,3 +22,6 @@ CONECTAR COM API
 
 CURRENCY (FORMATACAO) PRO ANDROID E IOS
 -npm install intl
+
+
+Gerar aplicativo do react native: video rocketseat "Gerando APK (Android) e IPA (iOS) com React Native & Expo | Code/Drops #15"

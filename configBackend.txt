@@ -10,6 +10,16 @@
 
 - npm install cors (seguranca)
 
+- npm install celebrate (validacoes no backend) -integra o express com o joi
+
+- npm install jest -D (testes)
+- npx jest --init (yes, node, no, yes)
+- npm test (rodar os testes)
+
+(para testes de integracao)
+- npm install cross-env (criar outra conexao para o banco de testes)(escrever um script em package.json: "test": "cross-env NODE_ENV=test jest")
+- npm install supertest -D 
+
 - publicar no git hub:
 	- criar arquivo .gitignore no src e escrever node_modules
 	- git init
@@ -23,3 +33,14 @@
 		4 - No terminal, na pasta raiz do projeto executar git add .
 		5 - git commit -m "Alteração de pasta"
 		6 - git push
+
+
+Pesquisar sobre autenticacao JWT
+Pesquisar sobre Padroes de codigo: EsLint, Prettier		
+
+Para fazer deploy (hospedagem) do node: video "Deploy de aplicacao nodeJS no Heroku" da rocketseat
+Para fazer o deploy sério (nivel comercial) => digitalOcean => video na rocketseat: "deploy de apps Node.js | Masterclass #03"
+
+Hospedagem para o front end: netlify, firebase
+
+Gerar aplicativo do react native: video rocketseat "Gerando APK (Android) e IPA (iOS) com React Native & Expo | Code/Drops #15"
