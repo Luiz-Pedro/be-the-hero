@@ -24,7 +24,7 @@ export const Content = styled.div`
 export const SectionContent = styled.section`
 
     width: 100%;
-    max-width: 380px;
+    max-width: 45%;
     h1{
         margin: 2.5em 0 1em;
         font-size: 2em;
@@ -56,7 +56,7 @@ export const SectionContent = styled.section`
 
 export const Form = styled.form`
     width: 100%;
-    max-width: 450px;
+    max-width: 45%;
     input, textarea{
         margin-top: 1em;
     }

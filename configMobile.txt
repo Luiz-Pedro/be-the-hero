@@ -1,0 +1,24 @@
+INSTALACAO
+- npm install -g expo-cli
+- expo -h
+- expo init nomedoprojeto
+- cd nomedoprojeto
+- npm start
+(baixar o app Expo para rodar o projeto no celular lendo o QRCode)
+
+NAVEGACAO E ROTAS
+- npm install @react-navigation/native (navegacao e rotas)
+- expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+- npm install @react-navigation/stack
+
+CONSTANTES DE CADA CELULAR
+- expo install expo-constants
+
+ENVIO DE EMAIL/WHATSAPP
+- expo install expo-mail-composer
+
+CONECTAR COM API
+- npm install axios
+
+CURRENCY (FORMATACAO) PRO ANDROID E IOS
+-npm install intl

@@ -4,12 +4,11 @@ import styled from 'styled-components';
 export const ProfileContainer = styled.div`
     width:100%;
     max-width:80%;
-    padding: 0 30px;
-    margin: 32px auto;
+    margin: 4em auto;
 
     h1{
-        margin-top: 80px;
-        margin-bottom: 24px;
+        margin-top: 4em;
+        margin-bottom: 1em;
     }
 `;
 
@@ -17,21 +16,22 @@ export const ProfileHeader = styled.header`
     display: flex;
     align-items: center;
     span{
-        font-size: 20px;
-        margin-left: 24px;
+        font-size: 1.3em;
+        margin-left: 2em;
+        font-weight: 500;
     }
     a{
-        width: 260px;
+        width: 15em;
         margin-left: auto;
         margin-top: 0;
     }
     button{
         height: 60px;
         width: 60px;
-        border-radius: 4px;
+        border-radius: 8px;
         border: 1px solid #dcdce6;
         background: transparent;
-        margin-left: 16px;
+        margin-left: 1em;
         transition: border-color 0.2s;
         &:hover{
             border-color: #999
@@ -40,7 +40,8 @@ export const ProfileHeader = styled.header`
 `;
 
 export const Logo = styled.img`
-    height: 64px;
+    height: 6em;
+    width: auto;
 `;
 
 export const CasosUl = styled.ul`
@@ -52,7 +53,7 @@ export const CasosUl = styled.ul`
     
     li{
         background: #fff;
-        padding: 24px;
+        padding: 2em;
         border-radius: 8px;
         position: relative;
         box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
@@ -64,24 +65,24 @@ export const CasosUl = styled.ul`
 
         strong{
             display: block;
-            margin-bottom: 16px;
+            margin-bottom: 1em;
             color: #41414d;
         }
 
         p + strong{
-            margin-top: 32px;
+            margin-top: 2.1em;
         }
 
         p{
             color: #737380;
             line-height: 21px;
-            font-size: 16px;
+            font-size: 1.1em;
         }
 
         button{
             position: absolute;
-            right: 24px;
-            top: 24px;
+            right: 1.7em;
+            top: 1.4em;
             border: 0;
             background: transparent;
             color: #a8a8b3;

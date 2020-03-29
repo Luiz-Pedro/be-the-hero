@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const LogonContainer = styled.div`
     width:100%;
-    max-width:1120px;
+    max-width:80%;
     height: 100vh;
     margin: 0 auto;
     display: flex;   
