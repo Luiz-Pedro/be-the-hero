@@ -1,5 +1,7 @@
 ![Title](https://raw.githubusercontent.com/Luiz-Pedro/be-the-hero/master/frontend/src/assets/logo.svg?sanitize=true)
 
+![Title](https://raw.githubusercontent.com/Luiz-Pedro/be-the-hero/master/frontend/src/assets/mockup.png)
+
 # Project created at "Semana Omnistack 11" course by Rocketseat.
 
 *Application where non-governmental organizations can create and showcase incidents that are in need of funds to be accomplished. People can deliberatedly donate to an incident of their choice.*
