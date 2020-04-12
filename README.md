@@ -1,0 +1,1 @@
+![Title](https://raw.githubusercontent.com/Luiz-Pedro/be-the-hero/master/frontend/src/assets/logo.svg?sanitize=true)
